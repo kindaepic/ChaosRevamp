@@ -5,8 +5,6 @@ import os
 from discord.ext.commands import Bot
 from discord.ext import commands, tasks
 import requests
-from threading import Thread
-from sys import stdout
 from requests import Session
 from time import strftime, gmtime, sleep
 import ctypes
