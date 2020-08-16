@@ -15,10 +15,8 @@ import webbrowser
 import subprocess 
 #-----------CONFIG-----------#
 
-token = os.getenv("token")
-prefix = os.getenv("prefix")
-user_id = os.getenv("userid")
-streamurl = os.getenv("streamurl")
+token = input(f"{Fore.BLACK}Input your Discord token here : {Fore.RESET}")
+prefix = input(f"{Fore.RED}Now, type your selected prefix : {Fore.RESET}")
 
 #----------------------------#
 bot = commands.Bot(command_prefix=prefix, self_bot=True)
@@ -36,8 +34,8 @@ print(f"""
 ███    ███   ███    ███     ███    ███ ███    ███    ▄█    ███ 
 ████████▀    ███    █▀      ███    █▀   ▀██████▀   ▄████████▀  
 
-                          Version V3 (Revamp)       
-                           Made by Axis/Marx
+                          Version V3       
+                        Made by Axis/Marx
                             {Fore.BLUE}
                             {Fore.RESET}
 """)
